@@ -1,0 +1,91 @@
+
+/* .center-parent-dialog {
+  height:100vh !important;
+  width:100vw !important;
+  position: relative !important;
+} */
+.centre-dialog {
+  /* position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important; */
+  background-color: white !important;
+  color: black !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items: center !important;
+  width: 560px !important;
+  height: auto !important;
+  box-shadow: 3px 9px 24px 1px rgba(0,0,0,0.1) !important;
+}
+.logo-image-UNICUS {
+  height:40px !important;
+}
+.logo-image-tagline {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+.copy-icon {
+  height: 14px !important;
+  margin-left:6px !important;
+}
+.copy-icon:hover{
+  cursor:pointer !important;
+}
+.padding-container {
+  padding:44px 10px 40px 10px !important;
+  border-radius: 8px !important;
+}
+.wallet-connect-heading {
+  
+  font-size: 22px !important;
+  margin-bottom: 9px !important;
+  font-weight: 600 !important;
+
+}
+.text-heading {
+  font-size:1.6rem !important;
+  color:rgb(17, 24, 39) !important;
+  margin-bottom:15px !important;
+}
+.unicus-button {
+  background-color: rgb(219, 234, 254,0.8) !important;
+  border: 1px solid rgb(255 255 255);
+  color: rgb(30, 58, 138) !important;
+  padding:4px !important;
+  font-weight: 500 !important;
+  padding: 6px 10px !important;
+  border-radius: 8px !important;
+  margin:10px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-width:90px !important;
+}
+.unicus-button:hover{
+  cursor: pointer !important;
+  background-color: rgba(219, 234, 254,1) !important;
+
+}
+.react-responsive-modal-modal {
+  padding:0 !important;
+  border-radius:12px !important
+}
+.metamask-address {
+  margin-bottom:16px !important;
+}
+.metamask-connect-wallet {
+  height:20px;
+  margin-left:6px;
+}
+
+@media only screen and (max-width:480px) {
+  .centre-dialog { 
+    width:380px;
+  }
+}
+@media only screen and (max-width:420px) {
+  .centre-dialog { 
+    width:340px;
+  }
+}
